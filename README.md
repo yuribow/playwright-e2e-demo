@@ -3,8 +3,6 @@
 This project is a QA portfolio that demonstrates automated end-to-end testing using **Playwright**.  
 このプロジェクトは **Playwright** を使用してE2Eテストを自動化したQAポートフォリオです。
 
----
-
 # Tech Stack（使用技術）
 
 - Playwright
@@ -12,12 +10,10 @@ This project is a QA portfolio that demonstrates automated end-to-end testing us
 - Node.js
 - GitHub Actions
 
----
-
 # Project Structure（プロジェクト構成）
 
 ```
-playwright-qa-portfolio
+playwright-e2e-demo
 │
 ├ tests
 │ └ login.spec.ts
@@ -40,22 +36,16 @@ playwright-qa-portfolio
 └ README.md
 ```
 
----
-
 # Test Target
 Test site used in this project:  
 このプロジェクトでテスト対象として使用しているサイト：
 
 https://www.saucedemo.com/
 
----
-
 # Test Scenarios
 
 Detailed test design documents are available in the `test-design` folder.  
 詳細なテスト設計は `test-design` フォルダに記載しています。
-
----
 
 # Running Tests
 
@@ -78,8 +68,6 @@ View test report（テストレポート表示）
 ```
 npx playwright show-report
 ```
-
----
 
 # Continuous Integration（CI）
 
