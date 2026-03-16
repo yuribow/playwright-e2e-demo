@@ -8,7 +8,7 @@ https://www.saucedemo.com/
 
 ---
 
-## Test Scenarios
+## Login Test Scenarios
 
 ### TS-LOGIN-01 Valid Login
 User logs in with valid credentials and successfully accesses the inventory page.
