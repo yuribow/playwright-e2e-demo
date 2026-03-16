@@ -1,6 +1,7 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../fixtures';
 import { LoginPage } from '../pages/LoginPage';
 import { users } from '../test-data/users';
+
 
 test.describe('Login Tests', () => {
 
