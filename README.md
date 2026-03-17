@@ -15,22 +15,12 @@ This project is a QA portfolio that demonstrates automated end-to-end testing us
 ```
 playwright-e2e-demo
 │
-├ tests
-│ └ login.spec.ts
-│
-├ pages
-│ └ LoginPage.ts
-│
-├ test-data
-│ └ users.ts
-│
-├ test-design
-│ ├ login-test-scenarios.md
-│ └ login-test-cases.md
-│
-├ .github
-│ └ workflows
-│  └ playwright.yml
+├ tests # Playwright test files（テストコード）
+├ pages # Page Object Model classes（POMクラス）
+├ fixtures # Custom Playwright fixtures（テスト用fixture）
+├ test-data # Test data（テストデータ）
+├ test-design # Test scenarios and test cases（テスト設計）
+├ .github # CI workflow (GitHub Actions)
 │
 ├ playwright.config.ts
 └ README.md
